@@ -4,43 +4,47 @@ body
         background-color: black;
         background-repeat: repeat-y; 
         background-size:contain; 
-        background-position-x: center
+        background-position-x: center;
+        
     }
 h1 
     {
         color: rgb(255, 255, 0 ); 
         font-size: 500%; font-family:'Trebuchet MS'; 
-        text-align: center
+        text-align: center;
     }
-h2 
+p.h2 
     {
         color: rgb(100, 100, 170); 
         font-size: 250%; 
         font-family: cursive; 
-        text-align:left
+        text-align:left;
     }
-p 
+p
     {
         color: white; 
         font-size: 200%; 
-        font-family: 'Segoe UI'
+        font-family: 'Segoe UI';
+        background-color: transparent;
     }
 main 
     {
         text-align: center; 
         font-size: 100%; 
-        font-family: fantasy
+        font-family: fantasy;
+        margin: auto;
     }
 footer 
     {
         text-align: right; 
         color: whitesmoke; 
-        font-size: 150%
+        font-size: 150%;
     }
 article 
     {
         text-align: center; 
         color:whitesmoke; 
         font-family: 'Lucida Sans'; 
-        font-size: 100%
+        font-size: 100%;
+        padding: 15px 15px 15px 15px;
     }    
